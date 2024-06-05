@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- onw css -->
+
+    <link rel="stylesheet" href="style.css">
+
+<!-- onw css -->
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="h1">
+        <h1>
+            JS Practice
+        </h1>
+    </div>
+
+
+    
+    <div class="nun">
+        
+        <input id="pupu">
+        
+    </div>
+
+
+    <div class="juju">
+
+        <button onclick="check()"> check</button>
+
+    </div>
+
+
+<script>
+    function check(){
+
+        var a = document.getElementById('pupu').value
+        if (a > 100) {
+            document.write("Greater Than")
+        } else if ( a == 100 ){
+            document.write("Equal")
+        } else {
+            document.write("Less Than")
+        }
+    }
+</script>
+
+</body>
+</html>

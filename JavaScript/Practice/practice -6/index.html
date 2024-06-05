@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="number" id="inni">
+    
+    <select name="" id="opt">
+        
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+        <option value="*">*</option>
+        
+    </select>
+    
+    <input type="number" id="pipi">
+    <button onclick="cal()">Calculate</button>
+
+
+    <h1 id="hhh">
+        Hence Prove
+    </h1>
+
+
+
+<script>
+
+    function cal(){
+        var a = document.getElementById('inni').value
+        var b = document.getElementById('pipi').value
+        var c = document.getElementById('opt').value
+
+        if (c == '+') {
+            var d = a + b
+        }
+
+        if (c == '-') {
+            var d = a - b
+        }
+
+        if (c == '*') {
+            var d = a - b
+        }
+
+        if (c == '/') {
+            var d = a - b
+        }
+
+        console.log(d)
+        document.getElementById('hhh').innerHTML = d
+    }
+
+</script>
+
+</body>
+</html>

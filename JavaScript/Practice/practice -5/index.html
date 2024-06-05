@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <!-- multiple -->
+
+    <input id="hel">
+    <input id="hey">
+
+    <button onclick="mul()">Multiple</button>
+
+
+    
+    <!-- minus -->
+
+    <input id="taa">
+    <input id="tii">
+
+    <button onclick="minus()">Minus</button>
+
+
+    <!-- divid -->
+
+    <input id="far">
+
+    <input id="ooq">
+
+    
+    <button onclick="divid()">divid</button>
+
+
+    <script>
+
+        // multiple
+
+        
+        function mul() {
+            var a = document.getElementById('hel').value
+            var b = document.getElementById('hey').value
+
+            var c = a * b
+            console.log(c)
+            document.write(c)
+        }
+
+
+        // Minus
+
+
+            function minus() {
+                var a = document.getElementById('taa').value
+                var b = document.getElementById('tii').value
+
+                var c = a - b
+                console.log(c)
+                document.write(c)
+            }
+
+
+                // divid
+
+                function divid() {
+                    var a = document.getElementById('far').value
+                    var b = document.getElementById('ooq').value
+
+                    var c = a / b
+                    console.log(c)
+                    document.write(c)
+                }
+
+
+    </script>
+</body>
+</html>
